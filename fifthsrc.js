@@ -11,7 +11,11 @@ export default function Fifthsrc() {
     const drawer = useRef(null);
     const mainView = () => (
         <View>
-            <View style={{ backgroundColor: "white", height: "100%", width: 300 }}>
+            <View style={{
+        backgroundColor: "white",
+        height: "100%", 
+        width: 300 
+        }}>
                 <Text>menu</Text>
                 <View style={{
                     // height: 70,
