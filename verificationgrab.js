@@ -15,7 +15,12 @@ export default function Verificationscreen() {
 
         </Text> code from the phone we just sent to you.
         </Text>
-        <View style={{ flex: 0.6, flexDirection: "row", justifycontent: "center", marginLeft: 30 }}>
+        <View style={{
+                     flex: 0.6,
+                     flexDirection: "row", 
+                     justifycontent: "center", 
+                     marginLeft: 30 
+                    }}>
           <View style={{ height: 90 }}>
             <TextInput placeholder=""
               //ref={"nameref"}
