@@ -6,7 +6,13 @@ export default function LoggingScreen() {
     return (
         <View>
             <View>
-                <Text style={{ fontSize: 20, fontWeight: "bold", marginLeft: 125, marginTop: 30, color: "black" }}>
+                <Text style={{ 
+        fontSize: 20,
+        fontWeight: "bold",
+        marginLeft: 125, 
+        marginTop: 30, 
+        color: "black"
+        }}>
                     Welcome Back!
                 </Text>
                 <Image source={{ uri: 'https://www.pinpng.com/pngs/m/182-1824276_healthcare-stethoscope-png-download-doctors-listen-to-your.png' }}
