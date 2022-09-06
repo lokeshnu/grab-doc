@@ -6,7 +6,8 @@ export default function FourScr() {
         <View>
             <View style={{ height: 250, width: '100%', backgroundColor: "white" }}>
                  <Image source ={{ uri: 'https://www.clipartmax.com/png/full/13-134397_heart-shape-hands-transparent-image-heart-hands-transparent-background.png'}}
-                 style={{ height:'100%', width:'100%'}}/>
+                 style={{ height:'100%',
+                   width:'100%'}}/>
             </View>
             <View style={{ flexDirection: "row", marginTop: 10, marginLeft: 10 }}>
                 <Image source={require('../Images/Person1.jpg')} style={{ width: 40, height: 40, marginRight: 5 }} />
